@@ -9,7 +9,6 @@ This project demonstrates the integration of a chatbot powered by Dialogflow wit
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -67,8 +66,8 @@ Before you begin, ensure you have met the following requirements:
 - `backend/main.py`: FastAPI application files.
 - `frontend/`: Static files (e.g., CSS, JavaScript) for the web interface.
 - `backend/main.py`: FastAPI application setup.
-- `dbackend/main.py`: Integration with Dialogflow.
-- `database.py`: MySQL database connection and data handling.
+- `backend/main.py`: Integration with Dialogflow.
+- `backend/db_helper.py`: MySQL database connection and data handling.
 - `requirements.txt`: Python package dependencies.
 - `README.md`: This documentation.
 
@@ -76,10 +75,6 @@ Before you begin, ensure you have met the following requirements:
 
 - Interact with the chatbot through the web interface.
 - The chatbot responses are powered by Dialogflow and stored in the MySQL database.
-
-## Configuration
-
-- Modify `config.py` to update database connection details, Dialogflow API credentials, and other settings.
 
 ## Deployment
 
@@ -101,9 +96,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or need assistance, feel free to contact the project maintainer:
 
-- Your Name
-- Email Address
+- Miten Ranjan Sahoo
+- mitenofficial04@gmail.com
 
 ---
-
-Customize this README with your specific project details, add usage examples, deployment instructions, and any other relevant information. Ensure that you keep your README up-to-date as your project evolves.
